@@ -88,9 +88,7 @@ const deleteEntity = async (req, res, next) => {
 	}
 
 	try {
-		let response = await s3
-			.deleteObject({ Bucket: BUCKET, Key: key })
-			.promise();
+		await s3.deleteObject({ Bucket: BUCKET, Key: key }).promise();
 
 		res.status(200).json({
 			message: "Success 🤝",
