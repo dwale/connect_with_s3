@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    container_name: posmon_service_v2
+    image: posmon_service_v2
+    restart: always
+    ports:
+      - "8081:8081"
+    build:
+      context: .
+      dockerfile: Dockerfile
