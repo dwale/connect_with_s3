@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    AWS_ACCOUNT_ID: "068278763965"
+    AWS_ACCOUNT_ID: "001393350085"
     IMAGE_REPO_NAME: "s3-api"
     APP_NAME: "s3-api"
     IMAGE_TAG: "dev"
