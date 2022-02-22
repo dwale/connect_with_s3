@@ -1,8 +1,8 @@
 version: "3"
 services:
   app:
-    container_name: posmon_service_v2
-    image: posmon_service_v2
+    container_name: s3-nodejs-api
+    image: dev
     restart: always
     ports:
       - "8081:8081"
