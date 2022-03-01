@@ -8,6 +8,6 @@ RUN ls
 RUN npm run build
 EXPOSE 8888
 
-RUN chmod +x start.sh
+#RUN chmod +x start.sh
 
-ENTRYPOINT ["./start.sh"]
+#ENTRYPOINT ["./start.sh"]
