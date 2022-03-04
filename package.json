@@ -6,10 +6,10 @@
 	"scripts": {
 		"build": "npm run start:prod",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon app.js"
+		"start": "node app.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "dwale",
 	"license": "ISC",
 	"dependencies": {
 		"aws-sdk": "^2.1063.0",

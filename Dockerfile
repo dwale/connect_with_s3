@@ -5,8 +5,9 @@ COPY ./package.json ./
 RUN npm install
 COPY . .
 RUN ls
-RUN npm run build
-EXPOSE 8888
+EXPOSE 8080
+CMD [ "node", "app.js" ]
+
 
 #RUN chmod +x start.sh
 
