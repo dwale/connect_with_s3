@@ -12,6 +12,7 @@
 	"author": "dwale",
 	"license": "ISC",
 	"dependencies": {
+		"@types/multer": "^1.4.7",
 		"aws-sdk": "^2.1063.0",
 		"dotenv": "^14.3.2",
 		"express": "^4.17.2",
